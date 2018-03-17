@@ -61,4 +61,4 @@ typings/
 .next
 
 # Create Data.json
-/src/api
+src/api
