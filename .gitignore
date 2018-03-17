@@ -60,5 +60,5 @@ typings/
 # next.js build output
 .next
 
-# Create Data.json
-src/api
+# Ignore data files
+src/api/db.json
