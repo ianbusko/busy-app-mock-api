@@ -16,5 +16,20 @@
   "dependencies": {
     "faker": "^4.1.0",
     "json-schema-faker": "^0.5.0-rc13"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/ianbusko/busy-app-mock-api/issues"
+  },
+  "homepage": "https://github.com/ianbusko/busy-app-mock-api#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ianbusko/busy-app-mock-api"
+  },
+  "keywords": [
+    "javascript",
+    "mock",
+    "API",
+    "json",
+    "server",
+  ],
 }
