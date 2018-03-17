@@ -22,7 +22,8 @@ const schema = {
             format:"email",
             faker:"internet.email"
           }
-        }
+        },
+        required: ['id', 'name', 'email']
       }
     }
   }
