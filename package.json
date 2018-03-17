@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A mock API for the busy App.",
   "main": "index.js",
-  "scripts":{
+  "scripts": {
     "generate-mock-data": "node buildScripts/generateMockData"
   },
   "author": "Ian Busko <ian.busko@gmail.com>",
@@ -12,6 +12,7 @@
     "json-server": "^0.12.1"
   },
   "dependencies": {
+    "faker": "^4.1.0",
     "json-schema-faker": "^0.5.0-rc13"
   }
 }
