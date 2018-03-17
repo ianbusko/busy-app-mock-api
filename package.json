@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "A mock API for the busy App.",
   "main": "index.js",
+  "scripts":{
+    "generate-mock-data": "node buildScripts/generateMockData"
+  },
   "author": "Ian Busko <ian.busko@gmail.com>",
   "license": "MIT",
   "devDependencies": {
