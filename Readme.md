@@ -9,4 +9,4 @@ npm run start-mockapi
 Load http://localhost:3001/users
 ```
 
-The current endpoint is `localhost:3001/users`. It serves up a set of users with `id`, `name`, and `email`.
+The current endpoint is `localhost:3001/users`. It serves up a set of users with `id`, `name`, and `email`. Drill down into a user's information using the path `/users/{userID}`.
