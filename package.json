@@ -4,7 +4,8 @@
   "description": "A mock API for the busy App.",
   "main": "index.js",
   "scripts": {
-    "generate-mock-data": "node buildScripts/generateMockData"
+    "generate-mock-data": "node buildScripts/generateMockData",
+    "start-mockapi": "json-server --watch src/api/db.json --port 3001"
   },
   "author": "Ian Busko <ian.busko@gmail.com>",
   "license": "MIT",
