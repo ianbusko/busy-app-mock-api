@@ -21,6 +21,11 @@ const schema = {
             type:"string",
             format:"email",
             faker:"internet.email"
+          },
+          depth:{
+            type:"integer",
+            minimum:1,
+            maximum:5,
           }
         },
         required: ['id', 'name', 'email']
