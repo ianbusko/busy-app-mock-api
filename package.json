@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "generate-mock-data": "node buildScripts/generateMockData",
+    "prestart-mockapi": "npm run generate-mock-data",
     "start-mockapi": "json-server --watch src/api/db.json --port 3001"
   },
   "author": "Ian Busko <ian.busko@gmail.com>",

@@ -28,7 +28,7 @@ const schema = {
             maximum:5,
           }
         },
-        required: ['id', 'name', 'email']
+        required: ['id', 'name', 'email', 'depth']
       }
     }
   }
