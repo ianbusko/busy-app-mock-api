@@ -30,6 +30,6 @@
     "mock",
     "API",
     "json",
-    "server",
-  ],
+    "server"
+  ]
 }
